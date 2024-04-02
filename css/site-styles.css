@@ -51,7 +51,7 @@ main > section:not(:last-child){
 /* ================================== */
 /* newsletter section */
 #newsletter-section{
-  background-color:#111111;
+  /* background-color:#111111; */
   min-height:auto;
   padding-bottom:60px;
 }
