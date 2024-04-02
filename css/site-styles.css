@@ -1,0 +1,81 @@
+
+/* variables */
+:root{
+  --dark: #222222;
+  --light: white;
+}
+
+/* page-level elements */
+body{
+  
+  background-color:#26212f;
+}
+main{
+  height:100vh;
+  width:100vw;
+  padding:50px;
+  /* max-width:800px; */
+}
+main > section:not(:last-child){
+  margin-right:20px;
+}
+
+
+/* custom selectors */
+
+/* sections */
+.logo-container{
+  background-image:url("/img/wasted-space_ship.png");
+  max-height:80px;
+  transform:translate(0);
+  /* animation:bounce 1s infinite; */
+}
+
+#links{
+  padding-top:50px;
+}
+#links a{
+  background-color:transparent;
+  display:block;
+  margin-bottom:0;
+  padding:10px;
+  margin-left:-10px;
+  text-decoration:none;
+  color:inherit;
+}
+#links a:hover{
+  background-color:#83769c;
+}
+
+
+/* ================================== */
+/* newsletter section */
+#newsletter-section{
+  background-color:#111111;
+  min-height:auto;
+  padding-bottom:60px;
+}
+.pinekeepers-loading-anim{
+  background-image:url('/img/pinesweeper-loading-animation-small-trans.gif');
+  width:170px;
+  height:170px;
+}
+.newsletter-container{
+  max-width:500px;
+  position:relative;
+}
+.newsletter-form{
+  /* margin-left:50px; */
+  margin-top:50px;
+}
+
+.form-row{
+  margin-bottom:20px;
+}
+.form-row label{
+  margin-right:10px;
+}
+.force-one-line{
+  display:inline-block;
+}
+/* ================================== */

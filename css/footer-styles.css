@@ -1,0 +1,13 @@
+/* ================================== */
+/* footer (overwrite shared) */
+footer{
+  background-color:#111111;
+}
+#cookie-footer{
+  background-color:#83769c;
+}
+.footer-logo.wasted-space-logo{
+  width: 130px;
+  height: 40px;
+  background-image:url(/img/wasted-space-logo-title-white-large.png);
+}
