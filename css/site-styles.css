@@ -24,15 +24,17 @@ main > section:not(:last-child){
 /* custom selectors */
 
 /* sections */
-.logo-container{
-  background-image:url("/img/wasted-space_ship.png");
-  max-height:80px;
-  transform:translate(0);
-  /* animation:bounce 1s infinite; */
+.col-content:not(:first-child){
+  margin-left:40px;
 }
-
+.logo-container{
+  background-image:url("/img/wasted-space_logo_trans.png");
+  height:250px;
+  max-width:600px;
+  max-height:150px;
+}
 #links{
-  padding-top:50px;
+  /* padding-top:50px; */
 }
 #links a{
   background-color:transparent;
@@ -45,6 +47,19 @@ main > section:not(:last-child){
 }
 #links a:hover{
   background-color:#83769c;
+}
+
+/* responsive styles */
+@media only screen and (max-width: 800px){
+  .section-content[data-au*="container"]{
+    flex-wrap:wrap;
+  }
+  .section-content[data-au*="container"] [data-au*="flex-width"]{
+    flex:none;
+    width:100%;
+    margin-left:0;
+    margin-right:0;
+  }
 }
 
 
