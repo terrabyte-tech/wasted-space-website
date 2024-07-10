@@ -37,6 +37,7 @@ nav{
   background-color:var(--accent);
 }
 
+
 /* sections */
 .col-content:not(:first-child){
   margin-left:80px;
@@ -53,16 +54,24 @@ h1{
 #links{
   /* padding-top:50px; */
 }
+/* all link items */
 #links a{
-  background-color:transparent;
   display:block;
+  margin-left:-10px;
+}
+/* primary link */
+#links .button{
+  margin-bottom:30px;
+}
+/* secondary links */
+#links a:not(.button){
+  background-color:transparent;
   margin-bottom:0;
   padding:10px;
-  margin-left:-10px;
   text-decoration:none;
   color:inherit;
 }
-#links a:hover{
+#links a:not(.button):hover{
   background-color:var(--accent);
 }
 
