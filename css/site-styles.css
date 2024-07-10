@@ -86,7 +86,7 @@ h1{
 /* ================================== */
 /* hero section */
 #hero-section{
-  background-image:url("/img/wastedspace_bg.gif");
+  background-image:url("/img/wasted-space_bg.gif");
   /* background-size: cover; */
   background-repeat:repeat;
   /* position:relative; */
@@ -103,6 +103,20 @@ h1{
 }
 #hero-section .section-content{
   z-index:1
+}
+/* ================================== */
+
+
+/* ================================== */
+/* merch button section */
+#merch-section{
+  min-height:auto;
+}
+.merch-banner{
+  /* background-image:url("/img/wasted-space_logo_bg_anim.gif"); */
+  background-image:url("/img/wasted-space_logo_trans_anim.gif");
+  background-repeat:repeat;
+  height:95px;
 }
 /* ================================== */
 
