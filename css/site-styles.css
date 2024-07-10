@@ -84,6 +84,30 @@ h1{
 
 
 /* ================================== */
+/* hero section */
+#hero-section{
+  background-image:url("/img/wastedspace_bg.gif");
+  /* background-size: cover; */
+  background-repeat:repeat;
+  /* position:relative; */
+}
+#hero-section:before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:#26212f;
+  opacity:.9;
+}
+#hero-section .section-content{
+  z-index:1
+}
+/* ================================== */
+
+
+/* ================================== */
 /* newsletter section */
 #newsletter-section{
   min-height:auto;
