@@ -102,9 +102,7 @@ nav{
 /* hero section */
 #hero-section{
   background-image:url("/img/wasted-space_bg.gif");
-  /* background-size: cover; */
   background-repeat:repeat;
-  /* position:relative; */
 }
 #hero-section:before{
   content:"";
@@ -122,11 +120,13 @@ nav{
 /* ================================== */
 
 
-/*  */
+/* ================================== */
+/* backstory section */
 #backstory-section .section-content{
   max-width:600px;
 }
-/*  */
+/* ================================== */
+
 
 
 /* ================================== */
