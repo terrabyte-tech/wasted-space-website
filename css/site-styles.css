@@ -27,6 +27,14 @@ main > section:not(:last-child){
   margin-right:20px;
 }
 
+/* typography */
+h1{
+  margin-bottom:10px;
+}
+h3{
+  margin-bottom:20px;
+}
+
 
 /* custom selectors */
 .login-container,
@@ -47,9 +55,6 @@ nav{
   height:250px;
   max-width:600px;
   max-height:150px;
-}
-h1{
-  margin-bottom:10px;
 }
 #links{
   /* padding-top:50px; */
@@ -77,17 +82,18 @@ h1{
 
 /* responsive styles */
 @media only screen and (max-width: 800px){
-  .section-content[data-au*="container"]{
+  .col-container{
     flex-wrap:wrap;
   }
-  .section-content[data-au*="container"] [data-au*="flex-width"]{
+  .col-container [data-au*="flex-width"]{
     flex:none;
     width:100%;
     margin-left:0;
     margin-right:0;
+    margin-top:40px;
   }
-  .section-content[data-au*="container"] [data-au*="flex-width"]:first-child{
-    margin-bottom:40px;
+  .col-container [data-au*="flex-width"]:first-child{
+    margin-top:0px;
   }
 }
 
@@ -114,6 +120,38 @@ h1{
   z-index:1
 }
 /* ================================== */
+
+
+/*  */
+#backstory-section .section-content{
+  max-width:600px;
+}
+/*  */
+
+
+/* ================================== */
+/* entity sections */
+.card-illus{
+  width:200px;
+  height:200px;
+  margin-bottom:40px;
+}
+.entity-section.cruiser .card-illus {
+  background-image:url("/img/cruiser-ship_anim.gif");
+}
+.entity-section.shooter .card-illus {
+  background-image:url("/img/shooter-ship_anim.gif");
+}
+.entity-section.saucer .card-illus {
+  background-image:url("/img/saucer-ship_anim.gif");
+}
+@media only screen and (max-width: 800px){
+  .card-illus{
+    width:200px;
+    height:200px;
+    margin-bottom:20px;
+  }
+}
 
 
 /* ================================== */
