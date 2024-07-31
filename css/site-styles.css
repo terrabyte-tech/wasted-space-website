@@ -26,6 +26,10 @@ main{
 main > section:not(:last-child){
   margin-right:20px;
 }
+img{
+  width:100%;
+  max-width:100%;
+}
 
 /* typography */
 h1{
@@ -45,6 +49,15 @@ nav{
   background-color:var(--accent);
 }
 
+/* subsection (move to shared styles on pixelplanettoday.com?) */
+.subsection {
+  margin-bottom: 40px;
+}
+.subsection:last-child{
+  margin-bottom: 0px;
+}
+/* responsive styles */
+/* {} */
 
 /* sections */
 .col-content:not(:first-child){
@@ -125,6 +138,18 @@ nav{
 #backstory-section .section-content{
   max-width:600px;
 }
+.how-to-play.col-container img{
+  /* max-width:500px; */
+}
+.how-to-play.col-container .col-content:not(:first-child){
+  margin-left:0px;
+}
+/* responsive styles */
+@media only screen and (max-width: 800px){
+  .how-to-play.col-container img{
+    max-width:400px;
+  }
+}
 /* ================================== */
 
 
@@ -132,8 +157,8 @@ nav{
 /* ================================== */
 /* entity sections */
 .card-illus{
-  width:200px;
-  height:200px;
+  width:150px;
+  height:150px;
   margin-bottom:40px;
 }
 .entity-section.cruiser .card-illus {
