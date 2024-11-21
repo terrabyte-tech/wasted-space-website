@@ -81,6 +81,13 @@ nav{
 #links .button{
   margin-bottom:30px;
 }
+/* hide additional play demo button on mobile */
+@media only screen and (max-width: 800px){
+  #links a.button.show-for-desktop{
+    display:none;
+  }
+}
+
 /* secondary links */
 #links a:not(.button){
   background-color:transparent;
